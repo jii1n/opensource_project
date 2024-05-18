@@ -146,7 +146,7 @@ async def create_event():
         abort(500, description=str(e))
 
 
-# 캘린더에 내용이 삭제되는지 확인 
+
 @app.route("/delete_event", methods=["DELETE"])
 async def delete_event():
     """API endpoint to delete an event from a specified Google Calendar."""
