@@ -4,8 +4,15 @@ from setuptools import setup
 from setuptools.command.install import install
 import subprocess
 
-install_requires = []
-
+install_requires = [
+    'quart',
+    'google-auth',
+    'google-auth-oauthlib',
+    'google-auth-httplib2',
+    'google-api-python-client',
+    'notion-client',
+    'python-dotenv'
+]
 
 setup(
     name='mycalendar',  
