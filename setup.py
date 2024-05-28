@@ -15,7 +15,7 @@ install_requires = [
 ]
 
 setup(
-    name='mycalendar',  
+    name='calendar',  
     version='1.0.0', 
     py_modules=[splitext(basename(path))[0] for path in glob('*.py')],  
     install_requires=install_requires,
