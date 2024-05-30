@@ -1,10 +1,4 @@
 
-<div class="row-container">
-  <img src="https://github.com/jii1n/opensource_project/assets/170122957/8a82e92c-b2a6-46e2-b3f7-3900262e581b">
-  <img src="https://github.com/jii1n/opensource_project/assets/170122957/6f8dbf1e-4f54-4ea2-b31d-f12e398aafa2">
-  <img src="https://github.com/jii1n/opensource_project/assets/170122957/9b41983f-a39d-402c-bcf5-841788e37646">
-</div>
-
 
 
 ![image](https://github.com/jii1n/opensource_project/assets/170122957/8a82e92c-b2a6-46e2-b3f7-3900262e581b)
