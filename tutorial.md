@@ -51,6 +51,7 @@ ex.
 #### 세부 이미지
 - your-creative-proxy-address을 cal-api로 설정 
 /read_events 를 통해 일정을 잘 읽어왔는지 확인(start date, end date, summary, location등등)
+<img width="60%" src="https://github.com/jii1n/opensource_project/assets/170122957/0fc3c08f-5700-48e1-94e0-035ae20ac930"/>
 ![image](https://github.com/jii1n/opensource_project/assets/170122957/0fc3c08f-5700-48e1-94e0-035ae20ac930)
 
 - custom gpt 스키마의 내용
@@ -60,4 +61,4 @@ ex)
 
 
 ### 캘린더 gpt 완성
-- 관련된 이미지는 result.md 참고 
+- 관련된 이미지는 **result.md** 참고 
