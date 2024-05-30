@@ -32,32 +32,38 @@ user의 시나리오
 
 #### 서버 실행
 
-1. pip install -r reguirements.txt
+1.
+Some basic Git commands are:
+```
+pip install -r reguirements.txt
+```
+
 2. credential.json과 calendar.py 위치 확인
 3. python calendar.py
-4. it --port 5000 --subdomain **your-creative-proxy-address**
+4.
+Some basic Git commands are:
+```
+   it --port 5000 --subdomain **your-creative-proxy-address**
+```
 your-creative-proxy-address는 본인이 명명한 address주소로 설정
-
-5. subdomain your-creative-poxy-address/read_events 로 calendar의 일정을 잘 읽어왔는지 확인
-6. 'custom gpt 만들기'로 들어가서 이름, 설명, 지침등을 자유롭게 입력
-7. 단, 지침(nstructions)에는 **instructions.md**를 입력
-8. '새 작업 만들기'를 클릭해 스키마 입력
-9. 스키마의 내용으로는 server. path, parameter등이 추가되어야 함
-ex. 
-
-10. 그 후 프롬프트를 통해 gpt에게 원하는 말투,형식을 지정할 수 있음 
+[!NOTE]
+> 6. subdomain your-creative-poxy-address/read_events 로 calendar의 일정을 잘 읽어왔는지 확인
+7. 'custom gpt 만들기'로 들어가서 이름, 설명, 지침등을 자유롭게 입력
+[!NOTE]
+> 8. 단, 지침(nstructions)에는 [Contribution guidelines for this project](docs/instructions.md)를 입력
+9. '새 작업 만들기'를 클릭해 스키마 입력
+10. 스키마의 내용으로는 server. path, parameter등이 추가되어야 함
+11. 그 후 프롬프트를 통해 gpt에게 원하는 말투,형식을 지정할 수 있음 
 
 
 #### 세부 이미지
 - your-creative-proxy-address을 cal-api로 설정 
-/read_events 를 통해 일정을 잘 읽어왔는지 확인(start date, end date, summary, location등등)
+- /read_events 를 통해 일정을 잘 읽어왔는지 확인(start date, end date, summary, location등등)
 <img width="30%" src="https://github.com/jii1n/opensource_project/assets/170122957/0fc3c08f-5700-48e1-94e0-035ae20ac930"/>
 
-
 - custom gpt 스키마의 내용
-ex)
 <img width="30%" src="https://github.com/jii1n/opensource_project/assets/170122957/9215f340-cb3a-4112-ac5a-2dea174707f7"/>
 
 
 ### 캘린더 gpt 완성
-- 관련된 이미지는 **result.md** 참고 
+- 관련된 이미지는 [Contribution guidelines for this project](docs/results.md) 참고 
