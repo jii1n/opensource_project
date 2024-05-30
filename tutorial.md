@@ -6,7 +6,7 @@
   - 직접 본인의 calendar로 가서 '일정 확인','추가', '삭제'가 아닌 endpoint를 이용해 gpt와 calendar의 데이터 교환 가능
   -> gpt와의 상호작용을 통해 gpt상에서 calendar의 내용을 확인, 추가, 삭제할 수 있음
 
-- 'explore gpts'사이트의 cutstom gpt 
+- 'explore gpts'의 cutstom gpt 
   - 나만의 custom gpt 생성 가능
   - .py를 통해 만들어진 endpoint를 입력해 gpt에게 데이터(일정)을 주고받음
     -> custom gpt 사용자는 calendar로 직접 접근하지 않으면서 gpt상에서 일정을 확인할 수있음
