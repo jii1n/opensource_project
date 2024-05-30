@@ -1,4 +1,4 @@
-# Import necessary libraries
+
 from quart import Quart, request, jsonify, abort
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -42,7 +42,7 @@ def get_calendar_service():
     service = build("calendar", "v3", credentials=creds)
     return service
 
-
+# calendar의 일정 읽어오기(-> html페이지(/read_events)에서 일정목록을 확인할 수 있음)
 @app.route("/read_events", methods=["GET"])
 async def read_events():
     """API endpoint to read events from a specified Google Calendar."""
@@ -70,7 +70,7 @@ async def read_events():
         )
         events = events_result.get("items", [])
 
-        # Extract necessary fields including description
+        # 일정의 추가설명, 날짜, 시간, 장소, 참여자(ex. 만나기로 한 사람)을 읽도록 설정함
         extracted_events = [
             {
                 "id": event.get("id"),
@@ -93,7 +93,8 @@ async def read_events():
         abort(500, description=str(e))
 
 
-
+# gpt로 calendar에 일정 추가( ex. gpt에게 '00월 00일 누구와~~~ 일정추가해줘'라고 전달하면 calendar에 일정이 추가됨)
+# 일정의 추가설명, 날짜, 시간, 장소, 참여자(ex. 함께하기로 한 사람)등이 calendar에 추가되도록 함.
 @app.route("/create_event", methods=["POST"])
 async def create_event():
     """API endpoint to create a new event in a specified Google Calendar."""
@@ -145,7 +146,7 @@ async def create_event():
         abort(500, description=str(e))
 
 
-
+# gpt로 calendar에 저장된 일정 삭제
 @app.route("/delete_event", methods=["DELETE"])
 async def delete_event():
     """API endpoint to delete an event from a specified Google Calendar."""
