@@ -10,7 +10,6 @@ install_requires = [
     'google-auth-oauthlib',
     'google-auth-httplib2',
     'google-api-python-client',
-    'notion-client',
     'python-dotenv'
 ]
 
