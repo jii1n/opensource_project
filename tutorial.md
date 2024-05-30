@@ -36,8 +36,9 @@ user의 시나리오
 2. credential.json과 calendar.py 위치 확인
 3. python calendar.py
 4. it --port 5000 --subdomain your-creative-proxy-address
---subdomain your-creative-proxy-darress는 본인이 명명한 address주소로 설정함
+--subdomain your-creative-proxy-address는 본인이 명명한 address주소로 설정함
 
-5. shema, description 
+5. subdomain your-creative-poxy-address/read_
+6. shema, description 
 
 
