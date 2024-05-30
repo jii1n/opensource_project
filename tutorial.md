@@ -55,7 +55,8 @@ ex.
 
 - custom gpt 스키마의 내용
 ex)
-![image](https://github.com/jii1n/opensource_project/assets/170122957/83fd0ce2-b3f9-47f9-8d43-8ee7e02a5a17)
+![image](https://github.com/jii1n/opensource_project/assets/170122957/9215f340-cb3a-4112-ac5a-2dea174707f7)
+
 
 
 ### 캘린더 gpt 완성
