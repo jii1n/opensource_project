@@ -35,6 +35,9 @@ user의 이용 과정
 1. pip install -r reguirements.txt
 2. credential.json과 calendar.py 위치 확인
 3. python calendar.py
-4. it 
+4. it --port 5000 --subdomain your-creative-proxy-address
+--subdomain your-creative-proxy-darress는 본인이 명명한 address주소로 설정함
+
+5. shema, description 
 
 
