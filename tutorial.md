@@ -45,7 +45,7 @@ pip install -r reguirements.txt
 3. python calendar.py
 4. your-creative-proxy-address는 본인이 명명한 address주소로 설정
 ```
-   it --port 5000 --subdomain **your-creative-proxy-address**
+   lt --port 5000 --subdomain your-creative-poxy-address
 ```
 5. subdomain your-creative-poxy-address/read_events 로 calendar의 일정을 잘 읽어왔는지 확인
 6. 'custom gpt 만들기'로 들어가서 이름, 설명, 지침등을 자유롭게 입력
