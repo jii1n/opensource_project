@@ -49,7 +49,7 @@ pip install -r reguirements.txt
 ```
 5. subdomain your-creative-poxy-address/read_events 로 calendar의 일정을 잘 읽어왔는지 확인
 6. 'custom gpt 만들기'로 들어가서 이름, 설명, 지침등을 자유롭게 입력
-7. 단, 지침(nstructions)에는 [instructions.md](docs/instructions.md)를 입력
+7. 단, 지침(nstructions)에는 [instructions.md](instructions.md)를 입력
 8. '새 작업 만들기'를 클릭해 스키마 입력
 9. 스키마의 내용으로는 server. path, parameter등이 추가되어야 함
 10. 그 후 프롬프트를 통해 gpt에게 원하는 말투,형식을 지정할 수 있음 
@@ -65,4 +65,4 @@ pip install -r reguirements.txt
 
 
 ## 캘린더 gpt 완성
-- 관련된 이미지는 [results.md](docs/results.md) 참고 
+- 관련된 이미지는 [results.md](results.md) 참고 
